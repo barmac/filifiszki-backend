@@ -62,3 +62,6 @@ typings/
 
 # JSDoc output
 out/
+
+# TS output
+functions/lib

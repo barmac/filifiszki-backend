@@ -1,6 +1,8 @@
-import { admin } from '../config/firebase';
 import passportJs = require('passport');
+
 import { Strategy as BearerStrategy } from 'passport-http-bearer';
+
+import { admin } from '../config/firebase';
 
 const STRATEGY_BEARER = 'bearer';
 
